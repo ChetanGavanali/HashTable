@@ -16,7 +16,11 @@ public class HashTableMain {
             else
                 value = value + 1;
             hashImpl.add(word , value);
+            System.out.println("Value = "+value);
         }
+        System.out.println(hashImpl);
+
+        hashImpl.remove("avoidable");
         System.out.println(hashImpl);
     }
 }
