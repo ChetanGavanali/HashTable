@@ -1,12 +1,11 @@
 package com.bridgelabz;
 
-import java.util.Hashtable;
-
 public class HashTableMain {
 
     public static void main(String[] args) {
         HashTable<String, Integer> hashImpl = new HashTable();
-        String message = "To be or not to be";
+        String message = "Paranoids are not paranoid because they are paranoid but " +
+                "because they keep putting themselves deliberately into paranoid avoidable situations";
 
         String[] messageArray = message.toLowerCase().split(" ");
 
